@@ -1,3 +1,20 @@
+/*
+    Write a C program that checks weather a given number is palindrome or not
+    * if a number is palindrome, store the number of digits of number in variable Q
+    * if a number is not palindrome, store the sum of digits in Q
+
+    Then, check weather the value stored in Q is prime, composite, or neither
+    and perform the following task:
+    * if Q is prime, print (Q+1)th Fibonacci term
+    * if Q is composite, print (Q-1)th Fibonacci term
+    * if Q is neither prime nor composite, print Qth Fibonacci term
+
+    NOTE:
+    * use do while loop to check palindrome
+    * use goto statement to check prime or composite
+    * use while loop in Fibonacci series
+*/
+
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -112,3 +129,4 @@ int main()
     printf("%dth Fibonacci term is: %d\n", term, fibonacci_term);
     return 0;
 }
+
