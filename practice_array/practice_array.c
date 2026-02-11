@@ -49,7 +49,7 @@ int main()
         not_unique:;
     }
 
-    int H = 1;
+    int H = 0;
     int L = size;
     for(i = 0; i < num_unique; i++)
     {
@@ -131,3 +131,4 @@ int main()
 
     return 0;
 }
+
